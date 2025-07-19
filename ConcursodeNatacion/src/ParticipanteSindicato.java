@@ -1,5 +1,5 @@
 public class ParticipanteSindicato extends Participante {
-    private String tipoSindicato;
+    private final String tipoSindicato;
 
     public ParticipanteSindicato(String nombre, int edad, String genero, boolean saludBuena, String tipoSindicato) {
         super(nombre, edad, genero, saludBuena, "Sindicato");

@@ -1,5 +1,5 @@
 public class ParticipanteColegio extends Participante {
-    private String nombreColegio;
+    private final String nombreColegio;
 
     public ParticipanteColegio(String nombre, int edad, String genero, boolean saludBuena, String nombreColegio) {
         super(nombre, edad, genero, saludBuena, "Colegio");
